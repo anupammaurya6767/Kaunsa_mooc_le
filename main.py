@@ -212,5 +212,5 @@ st.dataframe(summary_stats)
 # Timeline-wise data
 # Timeline-wise data
 st.header("Timeline-wise Data")
-course_df['Month'] = course_df['Month'].map(month_map)
+course_df['Month'] = course_df['Month']
 st.dataframe(course_df)
