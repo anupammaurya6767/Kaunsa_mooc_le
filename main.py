@@ -68,7 +68,7 @@ st.title("📊 NPTEL Course Analysis")
 st.header("📘 Course Information")
 col1, col2 = st.columns(2)
 with col1:
-    st.markdown("<h2 style='font-size: 20px;'>{}</h2>".format(selected_course), unsafe_allow_html=True)
+    st.markdown("<h2 style='font-size: 16px;'>{}</h2>".format(selected_course), unsafe_allow_html=True)
     st.markdown(f"**NPTEL URL:** [Link]({course_df['NPTEL URL'].iloc[0]})")
 with col2:
     st.markdown(f"**Latest Enrollment:** {course_df['Enrolled'].iloc[-1]:,}")
